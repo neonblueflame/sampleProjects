@@ -1,4 +1,4 @@
-package blueflamey.sample.spring;
+package blueflamey.sample.spring.di;
 
 public class DependencyInjection {
 	public static void main(String[] args) {
