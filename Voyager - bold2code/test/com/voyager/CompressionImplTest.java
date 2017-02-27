@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class CompressionImplTest {
 	
-	@Test
 	public void testUsingProvidedParagraph() {
 		StringBuffer sb = new StringBuffer();
 		sb.append("Not too long ago, Voyager was launched into the digital expanse on a mission of transformation. ");
@@ -38,6 +37,7 @@ public class CompressionImplTest {
 		stringCompression.setMapFileName("mapAlphabetUpperLowerCase.txt");
 		byte[] compressed = stringCompression.compress(alphabets);
 		
+		System.out.println(compressed);
 		System.out.println(compressed.length);
 		
 	}
