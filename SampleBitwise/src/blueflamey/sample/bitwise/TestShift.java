@@ -3,7 +3,7 @@ package blueflamey.sample.bitwise;
 /**
  * Uses Java 8 
  */
-public class ShiftTest {
+public class TestShift {
 	public static void main(String... args) {
 		
 		final int binaryZero = 0b0000_0000;
