@@ -38,6 +38,15 @@ public class ShiftTest {
 		final int resultWhenLargeNumberRightShiftDoneToOne = binaryOne >> (Integer.MAX_VALUE);
 		System.out.println(resultWhenLargeNumberRightShiftDoneToOne);
 		
+		final int binaryFive = 0b0000_0101;
+		System.out.println(binaryFive);
+		
+		final int resultWhenFiveLeftShiftOne = binaryFive << 1;
+		System.out.println(resultWhenFiveLeftShiftOne);
+		
+		final int resultWhenFiveLeftShiftMax= binaryFive << 1;
+		System.out.println(resultWhenFiveLeftShiftOne);
+		
 		// Niko stuff
 		System.out.println("Niko stuff");
 		final int resultWhenRightShiftDoneToOne = ~-2 + 1;
