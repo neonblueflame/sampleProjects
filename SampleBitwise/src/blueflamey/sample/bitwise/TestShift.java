@@ -3,7 +3,7 @@ package blueflamey.sample.bitwise;
 /**
  * Uses Java 8 
  */
-public class ShiftTest {
+public class TestShift {
 	public static void main(String... args) {
 		
 		final int binaryZero = 0b0000_0000;
@@ -37,15 +37,6 @@ public class ShiftTest {
 		
 		final int resultWhenLargeNumberRightShiftDoneToOne = binaryOne >> (Integer.MAX_VALUE);
 		System.out.println(resultWhenLargeNumberRightShiftDoneToOne);
-		
-		final int binaryFive = 0b0000_0101;
-		System.out.println(binaryFive);
-		
-		final int resultWhenFiveLeftShiftOne = binaryFive << 1;
-		System.out.println(resultWhenFiveLeftShiftOne);
-		
-		final int resultWhenFiveLeftShiftMax= binaryFive << 1;
-		System.out.println(resultWhenFiveLeftShiftOne);
 		
 		// Niko stuff
 		System.out.println("Niko stuff");

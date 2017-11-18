@@ -1,0 +1,8 @@
+var config = {
+	groups: {
+		CI: ['CERT', 'PK', 'SUBJECTKEY']
+		, EUM: ['CERT']
+		, EUICC: ['CERT', 'SK']
+	}
+	, defaultGroup: 'CERT' 
+};
